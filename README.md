@@ -13,7 +13,7 @@
   <a style="text-decoration:none" href="https://discord.gg/bMmWYGcz/">
     <img src="https://img.shields.io/discord/774182494277992478?color=3498DB&style=flat-square&label=discord" alt="Discord" />
   </a>
-  <a style="text-decoration:none" href="https://github.com/TobKra96/music_led_strip_control/blob/master/LICENSE">
+  <a style="text-decoration:none" href="https://github.com/AndresDuran53/music_led_strip_control/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/TobKra96/music_led_strip_control?color=3498DB&style=flat-square" alt="GitHub" />
   </a>
 </p>
@@ -49,13 +49,12 @@
 
 
 ## Installing
-
 Please check if your hardware is inside the [Compatible Hardware List](https://github.com/TobKra96/music_led_strip_control/wiki/Compatible-Hardware-List).
 
 ### Automated installation
 Run the following command in your terminal:
 ```bash
-curl -sSL https://raw.githubusercontent.com/TobKra96/music_led_strip_control/master/setup.sh | sudo bash -s -- -b master
+curl -sSL https://raw.githubusercontent.com/AndresDuran53/music_led_strip_control/master/setup.sh | sudo bash -s -- -b master
 ```
 
 The script also accepts some options:
@@ -123,4 +122,4 @@ Bootstrap, jQuery, jQuery-Scrollbar, jQuery-UI, Pickr, Font Awesome.
 
 ## License
 
-Distributed under the MIT License. See [`LICENSE`](https://github.com/TobKra96/music_led_strip_control/blob/master/LICENSE) for more information.
+Distributed under the MIT License. See [`LICENSE`](https://github.com/AndresDuran53/music_led_strip_control/blob/master/LICENSE) for more information.

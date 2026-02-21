@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Setup script for MLSC
-# https://github.com/TobKra96/music_led_strip_control
+# https://github.com/AndresDuran53/music_led_strip_control
 
 
 INST_DIR="/share" # Installation location
@@ -97,7 +97,7 @@ esac
 
 echo
 prompt -s "\t          *********************"
-prompt -s "\t          *  Installing $PROJ_NAME  *"
+prompt -s "\t          *  Installing $PROJ_NAME  (AndresDuran53 fork)*"
 prompt -s "\t          *********************"
 echo
 
@@ -139,7 +139,7 @@ if [[ -d $PROJ_DIR ]]; then
         fi
 	    sudo mv -T $PROJ_DIR "${PROJ_DIR}_bak"
         prompt -s "\nNew backup of ${PROJ_NAME} created."
-        sudo git clone --depth 1 --branch $GIT_BRANCH https://github.com/TobKra96/music_led_strip_control.git
+        sudo git clone --depth 1 --branch $GIT_BRANCH https://github.com/AndresDuran53/music_led_strip_control.git
         prompt -s "\nConfig is stored in .mlsc, in the same directory as the MLSC installation."
         if [[ -f $SERVICE_DIR ]]; then
             if [[ $systemctl_status == 'active' ]]; then
@@ -149,7 +149,7 @@ if [[ -d $PROJ_DIR ]]; then
         fi
     fi
 else
-    sudo git clone --depth 1 --branch $GIT_BRANCH https://github.com/TobKra96/music_led_strip_control.git
+    sudo git clone --depth 1 --branch $GIT_BRANCH https://github.com/AndresDuran53/music_led_strip_control.git
 fi
 
 # Install/update modules from requirements.txt.

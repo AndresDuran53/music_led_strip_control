@@ -69,7 +69,7 @@ class Webserver():
                 "version": "2.2.0",
                 "license": {
                     "name": 'MIT',
-                    "url": 'https://github.com/TobKra96/music_led_strip_control/blob/master/LICENSE'
+                    "url": 'https://github.com/AndresDuran53/music_led_strip_control/blob/master/LICENSE'
                 }
             }
         }
